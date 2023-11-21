@@ -25,7 +25,7 @@ function Proyectos() {
         <div className=" bg-white shadow mt-10 rounded-lg ">
             {proyectos.length ?(
               proyectos.map(e=>(<PreviewProyecto key={e._id} proyecto={e}/>))
-            ) : <p className=" p-5 text-center text-gray-600 uppercase"></p>}
+            ) : <p className=" p-5 text-center text-gray-600 uppercase"> no tienes proyectos aun comienza creando!</p>}
         </div>
     </>
   )

@@ -3,7 +3,7 @@ import useProyectos from "../hooks/useProyectos"
 function Colaborador({colaborador}) {
     const {handelEliminarColaborador} = useProyectos()
   return (
-    <div className=' border-b p-5 flex justify-between items-center'>
+    <div className=' border-b p-5 gap-2 flex pq:flex-row justify-end md:justify-between items-center flex-col'>
         <div>
             <p>{colaborador.nombre}</p>
             <p>{colaborador.email}</p>

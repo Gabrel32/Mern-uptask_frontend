@@ -428,6 +428,7 @@ const ProyectosProvider = ({children}) =>{
         setProyectos({})
         setProyecto({})
         setAlerta({})
+        setModalCerrarSesion(false)
     }
     return (
         <ProyectosContext.Provider
